@@ -6,7 +6,7 @@
 /*   By: edemirer <edemirer@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/09 01:53:04 by edemirer          #+#    #+#             */
-/*   Updated: 2023/12/09 14:33:32 by edemirer         ###   ########.fr       */
+/*   Updated: 2023/12/09 15:01:02 by edemirer         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,10 @@
 
 static void	ft_error1(char *str)
 {
-	ft_putendl_fd(str,2);
+	ft_putendl_fd(str, 2);
 	exit(0);
 }
+
 long	ft_atoi(const char *str)
 {
 	long	i;
